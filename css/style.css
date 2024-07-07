@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #7E42FE;
+}
+
+.title {
+    color: #7E42FE;
+}
+
+.header {
+    background-color: #7747DD;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ffd600;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    padding: 10px 10px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+      text-align: center;
+      padding: 10px 10px;
+    }
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-title {
+    font-size: 30px;
+}
+
+.profile-subtitle {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .10);
+}
+
+.pre {
+    white-space: pre-line;
+}
+
+.footer {
+    min-height: 70px;
+    background-color: #7747DD;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-link:hover {
+    color: #ffd600;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("../assets/svg/rs-school.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
