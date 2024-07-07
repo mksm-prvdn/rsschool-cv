@@ -21,6 +21,10 @@ body {
     list-style: none;
 }
 
+.header {
+    background-color: #7747DD;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -33,10 +37,23 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    color: #5200FF;
+    color: #fff;
     transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: #7747DD;
+    color: #ffd600;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.profile {
+    display: flex;
 }
