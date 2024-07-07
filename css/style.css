@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     box-sizing: border-box;
   }
@@ -11,4 +15,28 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5200FF;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #7747DD;
 }
