@@ -25,6 +25,18 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #7E42FE;
+}
+
+.title {
+    color: #7E42FE;
 }
 
 .header {
@@ -40,11 +52,9 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    text-decoration: none;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    transition: 0.3s;
 }
 
 .nav-link:hover {
@@ -94,4 +104,9 @@ body {
 .footer {
     min-height: 70px;
     background-color: #7747DD;
+    color: #fff;
+}
+
+.footer-link {
+    color: #fff;
 }
