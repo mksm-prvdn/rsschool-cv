@@ -7,6 +7,7 @@ html {
   }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,4 +57,31 @@ body {
 
 .profile {
     display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-title {
+    font-size: 30px;
+}
+
+.profile-subtitle {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .10);
 }
